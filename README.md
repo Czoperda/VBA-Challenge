@@ -1,7 +1,7 @@
 # VBA-Challenge
 Repository for Data Science VBA Challenge
 
-Copy of Code:
+Copy of Code Inclduded as VBAScript:
 
     Sub AddStringToSheets()
     Dim ws As Worksheet
