@@ -2,7 +2,8 @@
 Repository for Data Science VBA Challenge
 
 Copy of Code:
-Sub AddStringToSheets()
+
+    Sub AddStringToSheets()
     Dim ws As Worksheet
     Dim cell As Range
     Dim strings() As Variant
@@ -27,9 +28,9 @@ Sub AddStringToSheets()
         ws.Cells(1, 16).Value = "Ticker"
         ws.Cells(1, 17).Value = "Value"
     Next ws
-End Sub
+    End Sub
 
-Sub StockInfo()
+    Sub StockInfo()
     Dim ws As Worksheet
     Dim lastRow As Long
     Dim Ticker As String
@@ -107,9 +108,9 @@ Sub StockInfo()
             ws.Cells(summaryrow, 12).Value = totalVolume
         End If
     Next ws
-End Sub
+    End Sub
 
-Sub YearSummary():
+    Sub YearSummary():
     Dim ws As Worksheet
     Dim lastRow As Long
     Dim percentchange As Double
@@ -169,9 +170,9 @@ Sub YearSummary():
     ws.Cells(4, 16).Value = maxtotalVolumeTicker
     ws.Cells(4, 17).Value = maxtotalVolume
         
-Next ws
+    Next ws
         
 
-End Sub
+    End Sub
     
 
